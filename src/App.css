@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Graphik";
+  font-weight: 800;
+  src: url("fonts/graphik-lcg/GraphikLCG-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Graphik";
+  font-weight: 400;
+  src: url("fonts/graphik-lcg/GraphikLCG-Regular.otf") format("opentype");
+}
+
+.App {
+  text-align: center;
+}
+
+/* .App .aggregate,
+.App .fitler,
+.App .playlist {
+  color: #fff;
+} */
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+h1 {
+  font-size: 32px;
+  font-family: "Graphik";
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: "Graphik";
+  font-weight: 400;
+}
